@@ -1,8 +1,8 @@
-#check whether a is less than 10 or not
-a=8
-if a<10:
-    print('a is less than 10')
-    print('hello')
-
-##Output::  a is less than 10
-##         hello
+#To read the age of the student and check whether the student is eligible for vote or not
+name=input('enter name')#string
+age=int(input('Enter age'))#int
+if (age<18):
+    print('Not Eligible for vote')
+else:
+    print('Eligible for vote')
+          
