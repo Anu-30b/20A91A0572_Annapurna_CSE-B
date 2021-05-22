@@ -6,3 +6,7 @@ if (age<18):
 else:
     print('Eligible for vote')
           
+##Output:
+##enter name Annapurna 
+##Enter age 18
+##Eligible for vote
