@@ -1,0 +1,12 @@
+##Reverse of a number
+number=int(input('Enter number'))
+sums=0
+while number!=0:
+   r=number%10
+   sums=sums*10+r
+   number=number//10
+print('the reverse number is %d'%sums)
+
+Expected Output:
+  Enter number1234
+  the reverse number is 4321
